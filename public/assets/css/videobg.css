@@ -1,0 +1,64 @@
+/*** T H E - M A G I C - O F - O B J E C T - F I T ***/
+/*****************************************************/
+
+.video-container {
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+    @media(min-width: 600px) {
+      height: 100vh;
+    }
+  }
+  
+  video {
+    object-fit: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*** A E S T H E T I C S ***/
+  /***************************/
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  .video-container:after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(black, .2);
+    z-index: 1;
+  }
+
+  .callout {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+  }
+  
+
+
+  

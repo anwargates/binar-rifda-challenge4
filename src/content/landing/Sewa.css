@@ -1,0 +1,35 @@
+.sewa-mobil {
+    position: relative;
+    width: 100%;
+    height: 55vh;
+    overflow: hidden;
+    margin: auto;
+    top: 15px;
+    text-align: center;
+    padding: 4em 15em 5em 15em;
+    background-color: #0d28a6;
+    border-radius: 10px;
+  }
+  .sewa-mobil h1 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 150%;
+    color: #ffffff;
+  }
+  .sewa-mobil p {
+    color: #ffffff;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .sewa-mobil .button {
+    background-color: #5cb85f;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: #ffffff;
+  }
