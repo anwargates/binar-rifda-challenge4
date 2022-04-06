@@ -11,14 +11,12 @@ import Why_Us from './landing/Why_Us';
 function Landing() {
     return (
         <>
-        <Nav />
         <Hero />
         <Services />
         <Why_Us />
         <Testimonial />
         <Sewa />
         <FAQ />
-        <Footer />
         </>
     )
 }
