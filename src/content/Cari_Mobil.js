@@ -6,7 +6,7 @@ function Cari_Mobil() {
     return (
         <>
         <Hero />
-        {/* <Search_Box /> */}
+        <Search_Box />
         </>
     )
 }
