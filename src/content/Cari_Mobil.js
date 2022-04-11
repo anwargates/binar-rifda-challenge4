@@ -13,7 +13,6 @@ function Cari_Mobil() {
         {/* <Search_Box setCarList={setCarList}/>
         <Result carList={carList}/> */}
         <Search_Box />
-        <Result />
         </>
     )
 }

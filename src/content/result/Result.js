@@ -15,17 +15,19 @@ const movieId ={
 
 const Result = (props) => {
     return(
+        // <>
         // <div className="">
-        //     {props.movieList.length <= 0 && <h4>No movies at the moment</h4>}
-        //     {props.movieList.length > 0 && props.movieList.map((movie, index) => {
+        //     {props.carList.length <= 0 && <h4>No cars at the moment</h4>}
+        //     {props.carList.length > 0 && props.carList.map((car, index) => {
         //         return (
-        //            <Link to={`/movie/${movieId[movie.title]}`}> <CarCard movie={movie}key={index}/></Link>
+        //            <Link to={`/car/${car.id}`}> <CarCard car={car}key={index}/></Link>
         //         )
         //     })}
         // </div>
+        // </>
         <>
-        <section class="py-5">
-                <div id='cards' class="container px-5 my-5">
+        <section class="py-1">
+                <div id='cards' class="container px-3 my-5">
                         <CarCard />
                         <CarCard />
                         <CarCard />
