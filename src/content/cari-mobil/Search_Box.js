@@ -130,8 +130,11 @@ const reqData = async () => {
                                     <label htmlfor="passenger">Jumlah Penumpang (optional)</label>
                                     <input type='number' name="passenger" id="passenger" placeholder='Jumlah Penumpang'/>               
                                     </div>
-                                <div className='submit'>
-                                    <button onClick={() => {setIsBtnSearch(false); reqData();}} className='btn-find'>Cari Mobil</button>
+                                <div className='search-group'>
+                                <label htmlfor=""></label>
+                                    <div className='submit'>
+                                        <button onClick={() => {setIsBtnSearch(false); reqData();}} className='btn-find'>Cari Mobil</button>
+                                    </div>
                                 </div>
                             </div>
                     </div>
